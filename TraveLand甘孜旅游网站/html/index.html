@@ -1,0 +1,1355 @@
+<!doctype html>
+<html
+    class="no-js"
+    lang="en"
+>
+
+<head>
+    <meta charset="utf-8">
+
+    <!--====== Title ======-->
+    <title>TraveLand - 甘孜旅游代理之家 </title>
+
+    <meta
+        name="description"
+        content=""
+    >
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <!--====== Favicon Icon ======-->
+    <link
+        rel="shortcut icon"
+        href="assets/images/favicon.png"
+        type="image/png"
+    >
+
+    <link
+        rel="stylesheet"
+        href="assets/css/magnific-popup.css"
+    >
+    <link
+        rel="stylesheet"
+        href="assets/css/slick.css"
+    >
+
+    <!--====== Animate CSS ======-->
+    <link
+        rel="stylesheet"
+        href="assets/css/animate.css"
+    >
+
+    <!--====== Nice Select CSS ======-->
+    <link
+        rel="stylesheet"
+        href="assets/css/nice-select.css"
+    >
+
+
+    <!--====== Line Icons CSS ======-->
+    <link
+        rel="stylesheet"
+        href="assets/css/LineIcons.2.0.css"
+    >
+
+    <!--====== Bootstrap CSS ======-->
+    <link
+        rel="stylesheet"
+        href="assets/css/bootstrap.4.5.2.min.css"
+    >
+
+    <!--====== Default CSS ======-->
+    <link
+        rel="stylesheet"
+        href="assets/css/default.css"
+    >
+
+    <!--====== Style CSS ======-->
+    <link
+        rel="stylesheet"
+        href="assets/css/style.css"
+    >
+
+</head>
+
+<body>
+
+
+    <!-- 聊天框模块 -->
+    <div>
+        <div
+            class="mini-btn mini-btn1"
+            id="mini-btn"
+            onclick="show_floatWindow();"
+            style="width:auto;white-space:nowrap;cursor:pointer;display:none;position:fixed;
+    right:0; bottom:0;z-index:1000;height: 42px;border-radius:2px; overflow: hidden;
+     background: rgb(31, 140, 235);
+     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, .06), 0 2px 32px rgba(0, 0, 0, .16)!important;
+     box-shadow: 0 1px 6px rgba(0, 0, 0, .06), 0 2px 32px rgba(0, 0, 0, .16)!important;"
+        >
+
+            <div
+                class="mini-btn-info"
+                style="position: relative;width: 42px;height: 42px;display:inline-block;"
+            ><span
+                    style="width:100%;height:100%;position:absolute;left:0;top:0;z-index:1;background: center center no-repeat;
+     background-image: url(https://www13.53kf.com/style/chat/new2017/image/png/img-info24.png);background-image: url(https://www13.53kf.com/style/chat/new2017/image/svg/img-info24.svg), none;"></span>
+                <span
+                    style="width:100%;height:100%;position:absolute;left:0;top:0;background:#000;opacity:0.2;filter:alpha(opacity=20);"
+                ></span><span
+                    id="info-num"
+                    style="display:none;position: absolute;top: 5px;right: 5px;z-index:10;height: 14px;
+     min-width: 14px;line-height: 14px;border-radius: 7px;background: red;font-size: 12px;color: #FFFFFF;letter-spacing: 0.47px;text-align: center;"
+                >0</span>
+            </div>
+            <div
+                class="mini-btn-middle"
+                style="width:auto;font-weight:normal;display:inline-block;
+     vertical-align:top;line-height: 42px;padding: 0 8px;font-size: 16px;color: #FFFFFF;letter-spacing: 0.83px;word-break: break-all;text-align: center;"
+            >甘孜旅游~6月最新团报活动</div>
+            <div
+                class="mini-btn-window"
+                style="display:inline-block;width: 42px;
+     height: 42px;background: center center no-repeat;background-image: url(https://www13.53kf.com/style/chat/new2017/image/png/to-maxWindow.png);background-image: url(https://www13.53kf.com/style/chat/new2017/image/svg/to-maxWindow.svg), none;"
+            ></div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- 我是大盒子 -->
+    <div
+        class="active"
+        id="div_company_mini"
+        style="
+        line-height: 0; font-size: 0px; position: fixed; right: 0px; bottom: 0px; width: 360px; height: 460px; z-index: 1000000; cursor: move; overflow: visible;"
+    >
+
+        <div
+            id="iframe_company_mini_div"
+            style="font-size: 0;background-color:#fff;border-radius:2px;overflow:hidden;width:100%;height:460px;box-shadow:0 5px 40px rgba(0,0,0,.16)!important;-webkit-box-shadow:0 5px 40px rgba(0,0,0,.16)!important;"
+        >
+            <h6
+                class="pc-visitor-header"
+                style="width:100%;box-sizing:border-box;background: rgb(31, 140, 235) no-repeat 10px;margin:0;padding:0;padding-left: 10px;font-size: 14px;color: #fff;
+        height: 36px;line-height: 36px;position: relative;font-weight: normal;padding-right: 72px;"
+            ><img
+                    style="max-width: 80px;width:auto;height:24px;float: left;margin-top: 6px;border-radius:2px;
+        "
+                    src="./images/logo-2.svg"
+                ><label
+                    style="background: none; padding: 0; margin: 0; border: 0; line-height:36px;cursor:move;font-weight:normal;cursor:move;
+        color: #fff;display: inline-block;float: left;max-width:78%;margin-left: 5px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;
+        font-size: 14px;"
+                    class="header-company"
+                >甘孜旅游网站赞助：尚硅谷</label>
+                <span
+                    onclick="hide_floatWindow();"
+                    title="最小化"
+                    class="kf-pc-hide pc-title-btn"
+                    style="
+                    background: url(https://www13.53kf.com/style/chat/new2017/image/png/close2020.png)
+         center no-repeat;background-image: url(https://www13.53kf.com/style/chat/new2017/image/svg/close2020.svg),none;position: absolute;width: 36px;height: 36px;cursor: pointer;right: 0px;top: 0;"
+                ></span>
+            </h6>
+
+
+            <iframe
+                id="iframe_company_mini"
+                frameborder="0"
+                style="height:424px;width:100%;margin:0;padding:0;visibility: inherit;opacity:1;position:inherit;"
+                open_mini_windown="1"
+                src="https://www13.53kf.com/webCompany.php?kf_sign=DAzNDMTY4Og3NDExNjcxNzI0NDMxMDAxNzIwMDczNzc=&amp;arg=10007377&amp;style=1&amp;kflist=off&amp;kf=info%40atguigu.com%2Cpublic%40atguigu.com%2C3069368606%40qq.com%2Ctingting%40atguigu.com%2Cwangya%40atguigu.com%2Czhuchangqing%40atguigu.com%2Cwanggang%40atguigu.com%2Cmary%40atguigu.com%2Catguigu%2Cleilei%40atguigu.com&amp;zdkf_type=1&amp;lnk_overflow=0&amp;language=zh-cn&amp;charset=gbk&amp;username=&amp;userinfo=&amp;introurl=&amp;lyurl=&amp;lytype=0&amp;copartner=&amp;referer=http%3A%2F%2Fwww.atguigu.com%2F&amp;keyword=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DAWVmYoWQgEwKbvi_D1y3AmfTy4hIu8JCtJxiy7hnb6rV01J-_jIRCTypF9akEtaz%26wd%3D%26eqid%3Db2e37e2e00002b1800000006649d5e37&amp;brief=&amp;logo=&amp;question=&amp;uid=acac732e0e8245b41bb29ab9fd5c1567&amp;guest_id=15401191166003&amp;uuid_53kf=2cd8dedb5ce5f11e3ce575b82316e15a&amp;u_cust_id=&amp;u_cust_name=&amp;u_custom_info=&amp;tfrom=2&amp;tpl=minichat2&amp;timeStamp=1688034878346&amp;interface_color=1&amp;interface_theme=1&amp;minchat_style=1"
+            ></iframe>
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--====== PRELOADER PART START ======-->
+
+    <div class="preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== PRELOADER PART ENDS ======-->
+
+
+
+    <!--====== HEADER PART START ======-->
+
+    <section class="header_area">
+        <div class="header_navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a
+                                class="navbar-brand"
+                                href="index.html"
+                            >
+                                <img
+                                    src="assets/images/logo.svg"
+                                    alt="Logo"
+                                >
+                            </a>
+                            <button
+                                class="navbar-toggler"
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation"
+                            >
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div
+                                class="collapse navbar-collapse sub-menu-bar"
+                                id="navbarSupportedContent"
+                            >
+                                <ul
+                                    id="nav"
+                                    class="navbar-nav ml-auto"
+                                >
+                                    <li class="nav-item">
+                                        <a
+                                            class="page-scroll"
+                                            href="register.html"
+                                        ></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="page-scroll"
+                                            href="login.html"
+                                        >登录</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a
+                                            class="page-scroll"
+                                            href="#home"
+                                        >主页</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="page-scroll"
+                                            href="#about"
+                                        >关于</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="page-scroll"
+                                            href="#packges"
+                                        >计划</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="page-scroll"
+                                            href="#services"
+                                        >服务</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="page-scroll"
+                                            href="#gallery"
+                                        >美景</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="page-scroll"
+                                            href="#blog"
+                                        >博客</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="page-scroll"
+                                            href="#contact"
+                                        >联系我们</a>
+                                    </li>
+
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- header navbar -->
+
+        <div
+            id="home"
+            class="header_slider"
+        >
+            <div class="single_slider bg_cover d-flex align-items-center">
+                <video
+                    style="
+                width: inherit;
+                position: relative;
+                z-index: -1;"
+                    src="../html/assets/images/甘孜美景.mp4"
+                    autoplay="autoplay"
+                    muted="muted"
+                    loop="loop"
+                ></video>
+                <div
+                    class="container"
+                    style="position: absolute;
+                z-index: 0;"
+                >
+                    <div class="row">
+                        <div class="col-lg-6 col-md-8">
+                            <div class="slider_content">
+                                <h2
+                                    class="slider_title wow fadeInLeftBig"
+                                    data-wow-duration="1.3s"
+                                    data-wow-delay="0.2s"
+                                >Explore The 甘孜 with<span> TraveLand</span></h2>
+                                <p
+                                    class="wow fadeInLeftBig"
+                                    data-wow-duration="1.3s"
+                                    data-wow-delay="0.5s"
+                                >
+                                    圣洁美丽甘孜,康定情歌故乡。
+                                    甘孜山地旅游,东方户外天堂。
+                                    圣洁甘孜美轮美奂,绽放时代芳华;醉美康巴如诗如画,喜迎八方胜友。</p>
+                                <a
+                                    href="http://www.gzz.gov.cn/gzzrmzf/c100005/202207/b3ce95f20b1340428db1a7965a2fa307.shtml"
+                                    class="main-btn wow fadeInLeftBig"
+                                    data-wow-duration="1.3s"
+                                    data-wow-delay="0.8s"
+                                >大美甘孜</a>
+                            </div> <!-- slider content -->
+                        </div>
+                    </div> <!-- row -->
+                </div> <!-- container -->
+            </div> <!-- single slider -->
+        </div> <!-- header slider -->
+    </section>
+
+    <!--====== HEADER PART ENDS ======-->
+
+    <!--====== ABOUT PART START ======-->
+
+    <section
+        id="about"
+        class="about_area pt-130 pb-130"
+    >
+        <div class="about_wrapper">
+            <div
+                class="about_image bg_cover"
+                style="background-image: url(assets/images/about_image.png)"
+            ></div>
+            <!-- about image -->
+            <div class="container">
+                <div class="row justify-content-end">
+                    <div class="col-lg-6">
+                        <div class="about_content">
+                            <div class="section_title">
+                                <h3 class="title">About 我们 <br> TraveLand in <span>巴巴海</span></h3>
+                                <p>巴巴海水中富含碳酸钙，因此无论天气如何，水的颜色都是湛蓝色，丝毫不会影响。
+                                    海子与周围的参天古树、险峻奇峰相映生辉，奇美非凡，往里走崇山峻岭，
+                                    不远处就可以看到牦牛之心，还有散落在山头的无数个海子。
+                                </p>
+                            </div> <!-- section title -->
+                            <a
+                                href="http://www.gzz.gov.cn/zjgz"
+                                class="main-btn"
+                            >阅读更多</a></a>
+                        </div> <!-- about content -->
+                        <div class="about_counter d-flex flex-wrap">
+                            <div
+                                class="single_counter counter_1 d-flex justify-content-center align-items-center wow fadeInUpBig"
+                                data-wow-duration="1.3s"
+                                data-wow-delay="0.2s"
+                            >
+                                <div class="counter_wrapper">
+                                    <span class="counter">534</span>
+                                    <p>完成旅行</p>
+                                </div> <!-- single wrapper -->
+                            </div> <!-- single counter -->
+
+                            <div
+                                class="single_counter counter_2 d-flex justify-content-center align-items-center wow fadeInUpBig"
+                                data-wow-duration="1.3s"
+                                data-wow-delay="0.5s"
+                            >
+                                <div class="counter_wrapper">
+                                    <span class="counter">424</span>
+                                    <p>集团客户</p>
+                                </div> <!-- single wrapper -->
+                            </div> <!-- single counter -->
+
+                            <div
+                                class="single_counter counter_2 d-flex justify-content-center align-items-center wow fadeInUpBig"
+                                data-wow-duration="1.3s"
+                                data-wow-delay="0.8s"
+                            >
+                                <div class="counter_wrapper">
+                                    <span class="counter">35</span>
+                                    <p>游览国家</p>
+                                    </p>
+                                </div> <!-- single wrapper -->
+                            </div> <!-- single counter -->
+
+                            <div
+                                class="single_counter counter_1 d-flex justify-content-center align-items-center wow fadeInUpBig"
+                                data-wow-duration="1.3s"
+                                data-wow-delay="1.1s"
+                            >
+                                <div class="counter_wrapper">
+                                    <span class="counter">15</span>
+                                    <p>团队成员</p>
+                                </div> <!-- single wrapper -->
+                            </div> <!-- single counter -->
+                        </div> <!-- about_counter -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- about wrapper -->
+    </section>
+
+    <!--====== ABOUT PART ENDS ======-->
+
+    <!--====== DESTINATION PART START ======-->
+
+    <section
+        id=packges
+        class="destination_area pt-130 pb-130"
+    >
+        <div class=container>
+            <div class="row justify-content-center">
+                <div class=col-lg-6>
+                    <div class="section_title text-center pb-25">
+                        <h3 class=title>甘孜推荐计划</h3>
+                        <p> </p>
+                    </div>
+                </div>
+            </div>
+            <div class=row>
+                <div class="col-lg-4 col-md-6">
+                    <div
+                        class="single_destination mt-30 wow fadeIn"
+                        data-wow-duration=1.3s
+                        data-wow-delay=0.2s
+                    >
+                        <div class=destination_image> <img
+                                src="assets/images/destination-1.jpg"
+                                alt=Destination
+                            > </div>
+                        <div class=destination_content> <a
+                                href="https://www.hailuogou.com/jqgk/ggslg/hlgjq/hailuogou/2016/0830/163.html"
+                                class=main-btn
+                            >Book Now</a>
+                            <h4 class=title><a href="https://you.ctrip.com/sight/luding2059/76648.html"> 海螺沟</a>
+                            </h4>
+                            <p class=price>From ￥399+</p>
+                            <a
+                                class=more
+                                href="https://hotels.ctrip.com/hotels/list?countryId=1&city=4124&optionId=705&optionType=District&display=%E6%B5%B7%E8%9E%BA%E6%B2%9F%2C+%E7%94%98%E5%AD%9C%E8%97%8F%E6%97%8F%E8%87%AA%E6%B2%BB%E5%B7%9E%2C+%E5%9B%9B%E5%B7%9D%2C+%E4%B8%AD%E5%9B%BD"
+                            ><i class="lni lni-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div
+                        class="single_destination mt-30 wow fadeIn"
+                        data-wow-duration=1.3s
+                        data-wow-delay=0.5s
+                    >
+                        <div class=destination_image> <img
+                                src="assets/images/destination-2.jpg"
+                                alt=Destination
+                            > </div>
+                        <div class=destination_content> <a
+                                href="https://cn.yadingtour.com/"
+                                class=main-btn
+                            >Book Now</a>
+                            <h4 class=title><a href="https://you.ctrip.com/sight/daocheng342/11875.html">稻城亚丁</a>
+                            </h4>
+                            <p class=price>From ￥299+</p>
+                            <a
+                                class=more
+                                href="https://hotels.ctrip.com/hotels/list?city=1222&optionName=%E7%A8%BB%E5%9F%8E%E4%BA%9A%E4%B8%81&display=%E7%A8%BB%E5%9F%8E%E4%BA%9A%E4%B8%81#ctm_ref=www_hp_bs_lst"
+                            ><i class="lni lni-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div
+                        class="single_destination mt-30 wow fadeIn"
+                        data-wow-duration=1.3s
+                        data-wow-delay=0.8s
+                    >
+                        <div class=destination_image> <img
+                                src="assets/images/destination-3.jpg"
+                                alt=Destination
+                            > </div>
+                        <div class=destination_content> <a
+                                href="http://www.chinagongga.cn/"
+                                class=main-btn
+                            >Book Now</a>
+                            <h4 class=title><a
+                                    href="https://you.ctrip.com/sight/luding2059/11965.html#ctm_ref=www_hp_bs_lst"
+                                >贡嘎山</a>
+                            </h4>
+                            <p class=price>From ￥299+</p>
+                            <a
+                                class=more
+                                href="https://hotels.ctrip.com/hotels/list?city=7549&optionName=%E8%B4%A1%E5%98%8E%E5%B1%B1&display=%E8%B4%A1%E5%98%8E%E5%B1%B1#ctm_ref=www_hp_bs_lst"
+                            ><i class="lni lni-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div
+                        class="single_destination mt-30 wow fadeIn"
+                        data-wow-duration=1.3s
+                        data-wow-delay=0.2s
+                    >
+                        <div class=destination_image> <img
+                                src="assets/images/destination-4.jpg"
+                                alt=Destination
+                            > </div>
+                        <div class=destination_content> <a
+                                href="https://www.517sc.com/zhuanti/kdqgmgc/"
+                                class=main-btn
+                            >Book Now</a>
+                            <h4 class=title><a
+                                    href="https://you.ctrip.com/sight/kangding344/77460.html#ctm_ref=www_hp_bs_lst"
+                                >康定情歌(木格措)</a>
+                            </h4>
+                            <p class=price>From ￥200+</p>
+                            <a
+                                class=more
+                                href="https://hotels.ctrip.com/hotels/list?city=4130&optionName=%E6%9C%A8%E6%A0%BC%E6%8E%AA&display=%E6%9C%A8%E6%A0%BC%E6%8E%AA#ctm_ref=www_hp_bs_lst"
+                            ><i class="lni lni-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div
+                        class="single_destination mt-30 wow fadeIn"
+                        data-wow-duration=1.3s
+                        data-wow-delay=0.5s
+                    >
+                        <div class=destination_image> <img
+                                src="assets/images/destination-5.jpg"
+                                alt=Destination
+                            > </div>
+                        <div class=destination_content> <a
+                                href="http://yalatravel.cn/"
+                                class=main-btn
+                            >Book Now</a>
+                            <h4 class=title><a href="https://you.ctrip.com/sight/daofu1446234/69342100.html">亚拉雪山</a>
+                            </h4>
+                            <p class=price>From ￥200+</p>
+                            <a
+                                class=more
+                                href="https://hotels.ctrip.com/hotels/list?city=21366&landmark=4206868#ctm_ref=www_hp_bs_lst"
+                            ><i class="lni lni-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div
+                        class="single_destination mt-30 wow fadeIn"
+                        data-wow-duration=1.3s
+                        data-wow-delay=0.8s
+                    >
+                        <div class=destination_image> <img
+                                src="assets/images/destination-6.png"
+                                alt=Destination
+                            > </div>
+                        <div class=destination_content> <a
+                                href="http://www.mysdjq.com/"
+                                class=main-btn
+                            >Book Now</a>
+                            <h4 class=title><a
+                                    href="https://you.ctrip.com/sight/kangding344/1964270.html#ctm_ref=www_hp_bs_lst"
+                                >木雅圣地</a>
+                            </h4>
+                            <p class=price>From ￥299+</p>
+                            <a
+                                class=more
+                                href="https://hotels.ctrip.com/hotels/list?city=4130&landmark=8164587#ctm_ref=www_hp_bs_lst"
+                            ><i class="lni lni-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== DESTINATION PART ENDS ======-->
+
+    <!--====== SERVICES PART START ======-->
+
+    <section
+        id="services"
+        class="services_area pt-120"
+    >
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center pb-25">
+                        <h3 class="title">暖心服务</h3>
+                        <p>酒店，出行，购物等服务，您所需要的一切，我们都为您提供，只有你们想不到的，没有我们做不到，感谢信任“TraveLand大洋团队”！
+                        </p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div
+                        class="single_service mt-30 text-center wow fadeInUpBig"
+                        data-wow-duration="1.3s"
+                        data-wow-delay="0.2s"
+                    >
+                        <div class="services_icon">
+                            <i class="lni lni-apartment"></i>
+                        </div>
+                        <div class="services_content">
+                            <h4 class="title">酒店服务</h4>
+                            <p>酒店地理位置优越，交通便捷，周围环境优美，是您休息和出行的最佳选择。
+                                我们致力于让您度过一个难忘的旅程，为此我们提供多种定制化的旅游路线方案，帮助您深度体验当地文化和历史......</p>
+                        </div>
+                    </div> <!-- single service -->
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div
+                        class="single_service mt-30 text-center wow fadeInUpBig"
+                        data-wow-duration="1.3s"
+                        data-wow-delay="0.4s"
+                    >
+                        <div class="services_icon">
+                            <i class="lni lni-plane"></i>
+                        </div>
+                        <div class="services_content">
+                            <h4 class="title">航空服务</h4>
+                            <p>确保您的旅程顺利无阻。我们还提供多种航班服务，包括座位升级、托运行李和特殊餐食等，以满足您的各种需求。
+                                我们竭力为您提供最佳的航空服务体验。让我们一起开启新的旅程，创造美好的回忆！......</p>
+                        </div>
+                    </div> <!-- single service -->
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div
+                        class="single_service mt-30 text-center wow fadeInUpBig"
+                        data-wow-duration="1.3s"
+                        data-wow-delay="0.6s"
+                    >
+                        <div class="services_icon">
+                            <i class="lni lni-ship"></i>
+                        </div>
+                        <div class="services_content">
+                            <h4 class="title">渡船服务</h4>
+                            <p>甘孜各大景区的蓝色的海子免费提供乘坐，但是需要向管理人员出示本公司特定二维码，
+                                让您充分感受到水上交通的便利和快捷。我们致力于为您提供最优质的渡船服务，帮助您度过一个愉快的船舶之旅！......
+                            </p>
+                        </div>
+                    </div> <!-- single service -->
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div
+                        class="single_service mt-30 text-center wow fadeInUpBig"
+                        data-wow-duration="1.3s"
+                        data-wow-delay="0.8s"
+                    >
+                        <div class="services_icon">
+                            <i class="lni lni-car-alt"></i>
+                        </div>
+                        <div class="services_content">
+                            <h4 class="title">私人司机服务</h4>
+                            <p>我们将为您提供安全、便捷、舒适的出行体验。我们致力于让您在城市间自由穿梭，尽情享受旅程中的愉悦和轻松。
+                                车辆设备先进，配有各种豪华的设施，包括高级座椅、空调、娱乐系统等。让您在出行中尽情放松......
+                            </p>
+                        </div>
+                    </div> <!-- single service -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== SERVICES PART ENDS ======-->
+
+    <!--====== GALLERY PART START ======-->
+
+    <section
+        id=gallery
+        class="gallery_area pt-120 pb-130"
+    >
+        <div class=container>
+            <div class="row justify-content-center">
+                <div class=col-lg-6>
+                    <div class="section_title text-center pb-25">
+                        <h3 class=title>甘孜美景</h3>
+                        <p>等风来，不如来甘孜追风去；被好风景收买，剩下的都是好心情；心中有丘壑，眉目有山河；你所不知道的地方，都是值得一去的地方！
+                            云朵偷喝了屋顶的酒，于是脸红变成了晚霞。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=row>
+                <div class=col-lg-5>
+                    <div class="single_gallery mt-30"> <img
+                            src="assets/images/gallery-1.jpg"
+                            alt=gallery
+                        > <a
+                            class=image-popup
+                            href="assets/images/gallery-1.jpg"
+                        ><i class="lni lni-plus"></i></a> </div>
+                </div>
+                <div class=col-lg-7>
+                    <div class=row>
+                        <div class=col-sm-6>
+                            <div class="single_gallery mt-30"> <img
+                                    src="assets/images/gallery-2.jpg"
+                                    alt=gallery
+                                > <a
+                                    class=image-popup
+                                    href="assets/images/gallery-2.jpg"
+                                ><i class="lni lni-plus"></i></a> </div>
+                            <div class="single_gallery mt-30"> <img
+                                    src="assets/images/gallery-3.jpg"
+                                    alt=gallery
+                                > <a
+                                    class=image-popup
+                                    href="assets/images/gallery-3.jpg"
+                                ><i class="lni lni-plus"></i></a> </div>
+                        </div>
+                        <div class=col-sm-6>
+                            <div class="single_gallery mt-30"> <img
+                                    src="assets/images/gallery-4.jpg"
+                                    alt=gallery
+                                > <a
+                                    class=image-popup
+                                    href="assets/images/gallery-4.jpg"
+                                ><i class="lni lni-plus"></i></a> </div>
+                            <div class="single_gallery mt-30"> <img
+                                    src="assets/images/gallery-5.jpg"
+                                    alt=gallery
+                                > <a
+                                    class=image-popup
+                                    href="assets/images/gallery-5.jpg"
+                                ><i class="lni lni-plus"></i></a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== GALLERY PART ENDS ======-->
+
+    <!--====== TEAM PART START ======-->
+
+    <section
+        id=team
+        class="team_area pt-120 pb-130"
+    >
+        <div class=container>
+            <div class="row justify-content-center">
+                <div class=col-lg-6>
+                    <div class="section_title text-center pb-25">
+                        <h3 class=title>Ocean集团成员</h3>
+                        <p>Ocean集团成立以来，面向全球提供旅游服务，提供了不少就业岗位，吸引了大批外国友人，其中就有阿根廷梅西，法国马克龙，巨石强森，NBA詹姆士，字母哥等大牌
+                            ！欢迎有志青年的你加入我们“Ocean集团”。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=row>
+                <div class="col-lg-3 col-sm-6">
+                    <div
+                        class="single_team mt-30 wow fadeIn"
+                        data-wow-duration=1.3s
+                        data-wow-delay=0.2s
+                    >
+                        <div class=team_image> <img
+                                src="assets/images/team-1.jpg"
+                                alt=team
+                            > </div>
+                        <div class=team_content>
+                            <h5 class=team_name>吉伍史哈</h5>
+                            <p>Ocean集团副董事</p>
+                            <ul class=social>
+                                <li><a href="javascript:void(0)"><i class="lni lni-facebook-original"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="lni lni-instagram-original"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div
+                        class="single_team mt-30 wow fadeIn"
+                        data-wow-duration=1.3s
+                        data-wow-delay=0.4s
+                    >
+                        <div class=team_image> <img
+                                src="assets/images/team-2.jpg"
+                                alt=team
+                            > </div>
+                        <div class=team_content>
+                            <h5 class=team_name>马进明</h5>
+                            <p>Ocean集团 CEO</p>
+                            <ul class=social>
+                                <li><a href="javascript:void(0)"><i class="lni lni-facebook-original"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="lni lni-instagram-original"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div
+                        class="single_team mt-30 wow fadeIn"
+                        data-wow-duration=1.3s
+                        data-wow-delay=0.6s
+                    >
+                        <div class=team_image> <img
+                                src="assets/images/team-3.jpg"
+                                alt=team
+                            > </div>
+                        <div class=team_content>
+                            <h5 class=team_name>邓占军</h5>
+                            <p>Ocean集团高级总裁</p>
+                            <ul class=social>
+                                <li><a href="javascript:void(0)"><i class="lni lni-facebook-original"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="lni lni-instagram-original"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div
+                        class="single_team mt-30 wow fadeIn"
+                        data-wow-duration=1.3s
+                        data-wow-delay=0.8s
+                    >
+                        <div class=team_image> <img
+                                src="assets/images/team-4.jpg"
+                                alt=team
+                            > </div>
+                        <div class=team_content>
+                            <h5 class=team_name>胥大洋</h5>
+                            <p>Ocean集团董事长</p>
+                            <ul class=social>
+                                <li><a href="javascript:void(0)"><i class="lni lni-facebook-original"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="lni lni-instagram-original"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== TEAM PART ENDS ======-->
+
+    <!--====== TESTIMONIAL PART START ======-->
+
+    <section
+        id=testimonial
+        class="testimonial_area pt-120"
+    >
+        <div class=container>
+            <div class="row justify-content-center">
+                <div class=col-lg-6>
+                    <div class="section_title text-center pb-25">
+                        <h3 class=title>年度十佳员工</h3>
+                        <p>感谢Ocean集团所有人的辛苦付出！</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=container>
+            <div class="row testimonial_active">
+                <div class=col-lg-4>
+                    <div class="single_testimonial text-center"> <i class="lni lni-quotation"></i> <img
+                            src="assets/images/author-1.jpg"
+                            alt=author
+                        >
+                        <h5 class=author_name>周薛波</h5>
+                        <span class=sub_title>顶级杀手</span>
+                        <p>周薛波同志负责清除一系列阻碍集团发展的人员，办事效率高，本年度已经为我们清除了不少绊脚石，
+                            其中包括侵华罪人东条英机，石原莞尔，土肥原贤二等，波哥三岁开始习武，四岁出国进入杀手组织，
+                            现年20岁，工作经验丰富，熟读孙子兵法，高启强也叫他一声大哥，和他的对接暗号就是：“老波，我想吃鱼了🐟！”
+                        </p>
+                    </div>
+                </div>
+                <div class=col-lg-4>
+                    <div class="single_testimonial text-center"> <i class="lni lni-quotation"></i> <img
+                            src="assets/images/author-2.jpg"
+                            alt=author
+                        >
+                        <h5 class=author_name>周杰伦</h5>
+                        <span class=sub_title>职业歌手</span>
+                        <p>前职业高级杀手周薛波的哥哥，主要从事对本公司的资金投入，然后等着收钱。
+                            2000年发行首张专辑《Jay》后，迅速成为亚洲乐坛的超级巨星。他的音乐风格融合了中西方元素，
+                            可以说，周杰伦是华语乐坛的一面旗帜，他用自己的才华和努力为华语音乐的发展做出了卓越的贡献。</p>
+                    </div>
+                </div>
+                <div class=col-lg-4>
+                    <div class="single_testimonial text-center"> <i class="lni lni-quotation"></i> <img
+                            src="assets/images/author-3.jpg"
+                            alt=author
+                        >
+                        <h5 class=author_name>奥特曼</h5>
+                        <span class=sub_title>银河守护者</span>
+                        <p>在本年度本公司的星球旅游项目中起到了至关重要的作用，星球旅游计划本年度收入占比60%，大大的拓展了我们的市场领域，
+                            偶尔会出来拯救一下世界赚个外快，他说：“我不是世界的守护者，我只是苦逼的打工人”，
+                            他说他的下一个目标就是帮助公司进一步拓展业务，把公司做大做强！！
+                        </p>
+                    </div>
+                </div>
+                <div class=col-lg-4>
+                    <div class="single_testimonial text-center"> <i class="lni lni-quotation"></i> <img
+                            src="assets/images/author-4.jpg"
+                            alt=author
+                        >
+                        <h5 class=author_name>皮卡丘</h5>
+                        <span class=sub_title>供电员</span>
+                        <p>皮卡丘在本公司生物发电技术领域做出了卓越贡献，解决了公司电费问题，为公司省了一笔电费钱，几百台设备只需要一只电耗子
+                            的电击补充，为世界的碳排放也做出了贡献，联合国为本公司颁发“绿色之家”荣誉，表彰我们为世界能源，世界环境做出的巨大
+                            贡献，公司没他真不行，会停电。
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== TESTIMONIAL PART ENDS ======-->
+
+    <!--====== BLOG PART START ======-->
+
+    <section
+        id="blog"
+        class="blog_area pt-120 pb-130"
+    >
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center pb-25">
+                        <h3 class="title">旅行日志分享</h3>
+                        <p>实时更新，与你分享旅游心得，在家即可了解整个甘孜。</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="single_blog mt-30">
+                        <div class="blog_image">
+                            <img
+                                src="assets/images/blog-1.png"
+                                alt="blog"
+                            >
+                        </div>
+                        <div class="blog_content">
+                            <div class="blog_meta">
+                                <ul>
+                                    <li>Posted by: <a href="javascript:void(0)">邓占军</a></li>
+                                    <li>14 June 2023</li>
+                                </ul>
+                            </div>
+                            <h4 class="blog_title"><a href="javascript:void(0)">到！！汉名叫野人海，又名大海子，川西北最大的高山湖泊之一木格措去玩啦！</a>
+                            </h4>
+                            <p>
+                                ​木格措景区由芳草坪、七色海、杜鹃峡、药池沸泉、木格措（野人海）和红海、黑海等景点组成。景区以高原湖泊、原始森林、温泉、雪峰、奇山异石及长达8公里的千瀑峡，构成了秀丽多彩的景观。景点配置巧夺天工，是一处游览、娱乐、观赏、休息、疗养、健身、避暑、科考的理想胜地。
+                                木格措四周被群山、森林、草原环抱，红海、黑海、白海等几十个个小海子围绕着她，犹如众星捧月。
+                                木格措出海口左面的山峰名犀牛峰，月明星稀的夜晚，如水的月光泼洒在山峰上，那柄朝天的犀牛角会发出银色的寒光。
+                                木格措出海口右面山上有“卧虎观月”的景观，真如一只卧虎望着天上，虎视眈眈地乜着犀牛峰。
+                                “木格措”一日四时景，早晚不同天。清晨，雾锁海面，银龙般的云雾在水面翻卷，出现“双雾坠海”的动人景观。朝阳射向海面时，波光粼粼，湖光倒影千变万化，令人眼花缭乱。午后微风拂面时，海面上“无风三尺浪，翻卷千堆雪”，站在海滨沙滩上，遥望雾霭烟笼的远方，犹如来到了天涯海角。夕阳西下，余辉洒满海面，流金溢彩，水天一色，群山沉寂，碧海静谧。
+                                木格措左侧的金色沙滩被誉为爱情滩，是木格措的一大亮点。其沙细柔软，自然呈现金黄，在川西高原地区，于湖泊周围自然形成乃属罕见。</p>
+                        </div>
+                    </div> <!-- single blog -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="single_blog d-sm-flex mt-30">
+                        <div class="blog_image">
+                            <img
+                                src="assets/images/blog-2.jpg"
+                                alt="blog"
+                            >
+                        </div>
+                        <div class="blog_content blog_content_2 media-body">
+                            <h4 class="blog_title"><a href="javascript:void(0)">周楪臻游木雅圣地到此一游！</a></h4>
+                            <p>康定木雅圣地景区坐落于享誉世界的情歌之城――康定折多山西侧的“木雅辛康”，是甘孜州第一座以民俗风情与自然风光相结合的旅游景区，也是全国第一个以体现藏族木雅文化为主题的专题旅游区。
+                            </p>
+                            <a
+                                href="http://www.mysdjq.com/"
+                                class="more"
+                            >Read More</a>
+                        </div>
+                    </div> <!-- single blog -->
+
+                    <div class="single_blog d-sm-flex mt-30">
+                        <div class="blog_image">
+                            <img
+                                src="assets/images/blog-3.jpg"
+                                alt="blog"
+                            >
+                        </div>
+                        <div class="blog_content blog_content_2 media-body">
+                            <h4 class="blog_title"><a href="javascript:void(0)">海螺沟！我来看你啦！</a></h4>
+                            <p>提起冰川，人们固有的印象是南极，那荒无人烟的白色大陆，四周全被海水包围，海中漂浮着形状各异的冰山，在阳光下散发着淡蓝色的光......极少人会想到，
+                                在 四川 有着“蜀山之王”的 贡嘎 山脚下，还存有 亚洲 海拔最低和规模最大的冰川——
+                                海螺沟 冰川，与世界上其他高寒冰川相比，它算得上离现代都市最近的一条冰川，具有一般体力的旅行者都能轻易到达揽胜。海螺沟
+                                有四个营地，分别是一号营地/二号营地/三号营地/四号营地，总的来说只有一条线，乘坐观光车到达三号营地之后有两种游玩方式可以选择，
+                                一是步游道，步行穿过原始森林到达观景台看冰川，往返三小时，喜欢的话，还可以步行到冰川脚下近距离欣赏冰川。二是乘坐缆车翻越冰舌到四号营地看冰川，能更好更全面地观赏冰川。当时景区公告说步行上山路线有塌方，禁止步行上山。一选一只能坐缆车上山。
+                            </p>
+                            <a
+                                href="https://www.hailuogou.com/"
+                                class="more"
+                            >Read More</a>
+                        </div>
+                    </div> <!-- single blog -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== BLOG PART ENDS ======-->
+
+    <!--====== CONTACT PART START ======-->
+
+    <section
+        id="contact"
+        class="contact_area pt-120 pb-130"
+    >
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center pb-25">
+                        <h3 class="title">联系我们</h3>
+                        <p>您的支持与信任就是我们最大的动力！</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="contact_form">
+                <form
+                    action="assets/contact.php"
+                    method="POST"
+                    id="contact-form"
+                >
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="single_form">
+                                <input
+                                    type="text"
+                                    name="name"
+                                    id="name"
+                                    placeholder="姓名"
+                                >
+                            </div> <!-- single form -->
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="single_form">
+                                <input
+                                    type="text"
+                                    name="phone"
+                                    id="phone"
+                                    placeholder="电话号码"
+                                >
+                            </div> <!-- single form -->
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="single_form">
+                                <input
+                                    type="email"
+                                    name="email"
+                                    id="email"
+                                    placeholder="邮箱"
+                                >
+                            </div> <!-- single form -->
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="single_form">
+                                <select
+                                    id="country"
+                                    name="country"
+                                >
+                                    <option
+                                        value="0"
+                                        selected
+                                        disabled
+                                    >木雅圣地</option>
+                                    <option value="1">海螺沟</option>
+                                    <option value="2">木格措</option>
+                                    <option value="3">稻城亚丁</option>
+                                    <option value="4">亚拉雪山</option>
+                                    <option value="5">其他</option>
+                                </select>
+                            </div> <!-- single form -->
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="single_form">
+                                <textarea
+                                    name="message"
+                                    id="message"
+                                    placeholder="留言"
+                                ></textarea>
+                            </div> <!-- single form -->
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="single_form">
+                                <button
+                                    type="submit"
+                                    class="main-btn"
+                                >发送信息</button>
+                            </div> <!-- single form -->
+                        </div>
+                    </div> <!-- row -->
+                    <p class="form-message pt-30"></p>
+                </form>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== CONTACT PART ENDS ======-->
+
+    <!--====== FOOTER PART START ======-->
+
+    <section
+        id="footer"
+        class="footer_area"
+    >
+        <div class="footer_widget pt-80 pb-130">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 order-md-1 order-lg-1">
+                        <div class="footer_about mt-50">
+                            <a href="#"><img
+                                    src="assets/images/logo.svg"
+                                    alt="logo"
+                                ></a>
+                            <p>一个用心做旅游的网站。</p>
+                            <ul class="social">
+                                <li><a
+                                        class="social_1"
+                                        href="javascript:void(0)"
+                                    ><i class="lni lni-facebook-original"></i></a></li>
+                                <li><a
+                                        class="social_2"
+                                        href="javascript:void(0)"
+                                    ><i class="lni lni-twitter-original"></i></a></li>
+                                <li><a
+                                        class="social_3"
+                                        href="javascript:void(0)"
+                                    ><i class="lni lni-instagram-original"></i></a></li>
+                                <li><a
+                                        class="social_4"
+                                        href="javascript:void(0)"
+                                    ><i class="lni lni-linkedin-original"></i></a></li>
+                            </ul>
+                        </div> <!-- footer about -->
+                    </div>
+                    <div class="col-lg-4 col-md-12 order-md-3 order-lg-2">
+                        <div class="footer_link_wrapper d-flex flex-wrap">
+                            <div class="footer_link mt-45">
+                                <h4 class="footer_title">快速导航</h4>
+                                <ul class="link">
+                                    <li><a href="javascript:void(0)">主页</a></li>
+                                    <li><a href="javascript:void(0)">关于</a></li>
+                                    <li><a href="javascript:void(0)">旅游计划</a></li>
+                                    <li><a href="javascript:void(0)">旅游服务</a></li>
+                                    <li><a href="javascript:void(0)">旅游美景</a></li>
+                                </ul>
+                            </div> <!-- footer link -->
+                            <div class="footer_link mt-45">
+                                <h4 class="footer_title">赞助支持</h4>
+                                <ul class="link">
+                                    <li><a href="https://www.sc.gov.cn/">四川省人民政府</a></li>
+                                    <li><a href="https://www.qunar.com/">去哪儿旅游网</a></a></li>
+                                    <li><a href="https://www.ctrip.com/">携程在线</a></a></a></li>
+                                    <li><a href="https://www.fliggy.com/?ttid=seo.000000580&seoType=origin">飞猪旅行</a>
+                                    </li>
+                                    <li><a href="https://www.mafengwo.cn/">马蜂窝旅游</a></li>
+                                </ul>
+                            </div> <!-- footer link -->
+                        </div> <!-- footer link wrapper -->
+                    </div>
+                    <div class="col-lg-4 col-md-6 order-md-2 order-lg-3">
+                        <div class="footer_subscribe mt-45">
+                            <h4 class="footer_title">订阅简报</h4>
+                            <p><a
+                                    href="http://www.ganzitv.com/cms/a/134405017/content">习近平会见越共中央政治局委员、中央书记处常务书记、中组部部长张氏梅</a>
+                            </p>
+                            <div class="subscribe_form">
+                                <form action="#">
+                                    <input
+                                        type="text"
+                                        placeholder="进入邮箱"
+                                    >
+                                    <button><i class="lni lni-arrow-right"></i></button>
+                                </form>
+                            </div>
+                        </div> <!-- footer subscribe -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer widget -->
+    </section>
+
+    <!--====== FOOTER PART ENDS ======-->
+
+    <!--====== BACK TOP TOP PART START ======-->
+
+    <a
+        href="#"
+        class="back-to-top"
+    ><i class="lni lni-chevron-up"></i></a>
+
+    <!--====== BACK TOP TOP PART ENDS ======-->
+
+    <!--====== PART START ======-->
+
+    <!--
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <!--====== PART ENDS ======-->
+
+
+    <script>
+        //  实现本地存储用户名更换到页面中
+        const li1 = document.querySelector('#nav li:first-child')
+        const li2 = li1.nextElementSibling
+
+
+        // 做一个渲染函数，因为后面还要页面渲染
+        function render () {
+            // 去本地存储里面查找：有无数据
+            const uname = localStorage.getItem('travel-username')
+            // 如果有数据，就把内容装到li里面去
+            if (uname) {
+                li1.innerHTML = `<a href="javascript:;"><i class="iconfont icon-user">${uname}</i></a>`
+                li2.innerHTML = '<a href="javascript:;">退出登录</a>'
+            } else {
+                li2.innerHTML = '<a href="./login.html">请先登录</a>'
+                li1.innerHTML = '<a href="./register.html">免费注册</a>'
+            }
+        }
+
+        render()
+
+        // 退出登录模块
+        li2.addEventListener('click', function () {
+            localStorage.removeItem('travel-username')
+            render()
+        })
+    </script>
+
+
+
+    <!-- 隐藏聊天窗口 -->
+    <script>
+
+        function hide_floatWindow () {
+            // 获取盒子
+            const div_company_mini = document.querySelector('#div_company_mini')
+            const mini_btn = document.querySelector('#mini-btn')
+            div_company_mini.style.display = 'none'
+            mini_btn.style.display = 'block'
+        }
+        function show_floatWindow () {
+            // 获取盒子
+            const div_company_mini = document.querySelector('#div_company_mini')
+            const mini_btn = document.querySelector('#mini-btn')
+            div_company_mini.style.display = 'block'
+            mini_btn.style.display = 'none'
+        }
+
+
+    </script>
+
+
+    <!--====== Jquery js ======-->
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.4.5.2.min.js"></script>
+
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/ajax-contact.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+
+    <!--====== Scrolling Nav js ======-->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+
+    <!--====== Counter Up js ======-->
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+
+    <!--====== Nice Select js ======-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+
+    <!--====== WOW js ======-->
+    <script src="assets/js/wow.min.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
